@@ -1,25 +1,25 @@
 {
-    "name": "kutia-software-company/larafirebase",
+    "name": "fluxxer/larafirebase",
     "description": "Laravel Firebase Cloud Messaging.",
-    "homepage": "https://github.com/kutia-software-company/larafirebase",
+    "homepage": "https://github.com/joaomarcosfluxxer/larafirebase",
     "license": "MIT",
     "authors": [
         {
-            "name": "Gentrit Abazi",
-            "email": "gentritabazi01@gmail.com"
+            "name": "João Marcos Neves da Silva",
+            "email": "contact@joaomarcosns.dev"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Kutia\\Larafirebase\\": "src/"
+            "Fluxxer\\Larafirebase\\": "src/"
         },
         "files": [
             "src/Helpers/All.php"
         ]
     },
     "require": {
-        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
-        "illuminate/notifications": "^8.0|^9.0|^10.0|^11.0"
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/notifications": "^8.0|^9.0|^10.0|^11.0|^12.0"
     },
     "config": {
         "sort-packages": true
@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kutia\\Larafirebase\\Providers\\LarafirebaseServiceProvider"
+                "Fluxxer\\Larafirebase\\Providers\\LarafirebaseServiceProvider"
             ]
         }
     }

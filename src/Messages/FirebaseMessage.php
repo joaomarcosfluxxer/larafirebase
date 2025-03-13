@@ -1,8 +1,8 @@
 <?php
 
-namespace Kutia\Larafirebase\Messages;
+namespace Fluxxer\Larafirebase\Messages;
 
-use Kutia\Larafirebase\Facades\Larafirebase;
+use Fluxxer\Larafirebase\Facades\Larafirebase;
 
 class FirebaseMessage
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Kutia\Larafirebase\Providers;
+namespace Fluxxer\Larafirebase\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Notifications\ChannelManager;
-use Kutia\Larafirebase\Services\Larafirebase;
-use Kutia\Larafirebase\Channels\FirebaseChannel;
+use Fluxxer\Larafirebase\Services\Larafirebase;
+use Fluxxer\Larafirebase\Channels\FirebaseChannel;
 
 class LarafirebaseServiceProvider extends ServiceProvider
 {

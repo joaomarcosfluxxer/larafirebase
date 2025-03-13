@@ -1,10 +1,10 @@
 <?php
 
-namespace Kutia\Larafirebase\Services;
+namespace Fluxxer\Larafirebase\Services;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
-use Kutia\Larafirebase\Exceptions\UnsupportedTokenFormat;
+use Fluxxer\Larafirebase\Exceptions\UnsupportedTokenFormat;
 
 class Larafirebase
 {

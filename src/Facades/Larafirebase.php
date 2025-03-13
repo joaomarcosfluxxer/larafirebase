@@ -1,6 +1,6 @@
 <?php
 
-namespace Kutia\Larafirebase\Facades;
+namespace Fluxxer\Larafirebase\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
